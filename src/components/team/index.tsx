@@ -6,27 +6,27 @@ import { motion } from 'framer-motion';
 const teamData = [
     {
         name: 'Angel Luna',
-        img: 'user.png',
+        img: 'angel.png',
         role: 'Web developer',
-        description: 'My functions in oleo consist in the development of websites to get more sales with digital strategies. I transform web designs into websites and also deploy them.'
+        description: 'My functions in oleo consist in the development of websites to get more sales with digital strategies. I transform web designs into websites and also deploy them. I convert figma designs to websites with some animations, Seo, responsive design usign Next js. Also I design and develop campaigns of marketing for generating new leads. '
     },
     {
-        name: 'Camilo Trejos',
-        img: 'user.png',
+        name: 'Camilo Gallego',
+        img: 'camilo.jpg',
         role: 'Web designer',
-        description: 'My functions in oleo consist in the development of websites to get more sales with digital strategies. I transform web designs into websites and also deploy them'
+        description: 'Hi, I am Camilo, I studied systems engineering and I am in charge of the design and graphic part of the website. My role is to supervise the visual structure of the page, making it effective and intuitive for each of our clients, leading visual projects and design proposals for the improvement of the Oleo company.'
     },
     {
-        name: 'Jacobo',
-        img: 'user.png',
+        name: 'Jacobo Loaiza',
+        img: 'jacobo.jpeg',
         role: 'Sales manager',
-        description: 'My functions in oleo consist in the development of websites to get more sales with digital strategies. I transform web designs into websites and also deploy them'
+        description: 'Hi, I am Jacobo, I studied marketing and I am in change of all sales and distributions of Oleo, I also have counter support. I lead a team with the purpose of achieving the desired objetive in the commercial area. I motivate the others members to make the best desicions and increase the profits of the Oleo company'
     },
     {
-        name: 'Otro...',
-        img: 'user.png',
+        name: 'José David',
+        img: 'jose.jpeg',
         role: 'Production manager',
-        description: 'My functions in oleo consist in the development of websites to get more sales with digital strategies. I transform web designs into websites and also deploy them'
+        description: 'He is in charge of planning the tasks of all Óleo workers with the aim of obtaining the best levels of performance in the company and therefore, obtaining a higher level of productivity, and thus being able to meet all the proposed goals of this company.'
     }
 ]
 

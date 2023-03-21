@@ -5,7 +5,7 @@ import styles from '../../styles/user.module.css';
 const User: React.FC<{name: string, description: string, role: string, img: string}> = ({description, img, name, role}) => {
     return (
         <div className={styles.user}>
-            <Image src={`/${img}`} width={150} height={150} alt='user img'/>
+            <Image src={`/${img}`} width={150} height={150} alt='user img' style={{objectFit: 'cover'}}/>
             <h3 className={styles.name}>
                 { name }
             </h3>
