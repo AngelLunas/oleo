@@ -1,0 +1,42 @@
+.containerHome {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    width: 94%;
+    height: fit-content;
+    align-items: center;
+    background-color: #FFEFD8;
+}
+
+.title {
+    color: #B87F61;
+    font-family: 'Poppins', sans-serif;
+    font-size: 115px;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    color: #2D2D2D;
+    font-size: 16px;
+    width: 90%;
+}
+
+@media screen and (max-width: 890px) {
+    .title {
+        font-size: 55px;
+    }
+
+    .description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .containerHome {
+        flex-direction: column;
+    }
+}

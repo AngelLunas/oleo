@@ -1,0 +1,46 @@
+.nav {
+    height: 11vh;
+    width: 90%;
+    padding: 0 5%;
+    background-color: #FFEFD8;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.75);
+}
+
+.navContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerBtns {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #B87F61;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navText {
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    height: fit-content;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .containerBtns {
+        width: 55%;
+    }
+}
